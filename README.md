@@ -1,27 +1,22 @@
-# NgLibrary
+# ng-library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+Para la API Rest "fake" se ha usado https://github.com/typicode/json-server ('npm install -g json-server' para instalar)
+Para ejecutar la build se ha usado https://github.com/johnpapa/lite-server ('npm install --global lite-server' para instalar)
 
-## Development server
+En el repositorio está todo el código fuente y la build de la app.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Ejecución ##
 
-## Code scaffolding
+Proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Ubicarse en el directorio de la app **'cd ng-library'**
+2. Poner en marcha json-server ejecutando **'json-server --watch ./src/assets/mediaDataBase.json'**. Se habilita **http://localhost:3000**
+3. Ejecutar **'ng serve'** y navegar a **http://localhost:4200**. La aplicación se recargará automáticamente si se realiza algún cambio.
 
-## Build
+También se puede ejecutar directamente la build de la app ubicada en \dist\ng-library. 
+Para ello:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Ubicarse en el directorio dist\ng-library.
+2. Ejecutar **'npm run api'** o **'json-server --watch ./src/assets/mediaDataBase.json'**
+3. Ejecutar** 'npm run dev'** o **'lite-server -c bs-config.json'** y navegar a **http://localhost:4200** para acceder a la app.
