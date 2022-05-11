@@ -2,11 +2,11 @@
 
 Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-Se ha usado Angular Material https://material.angular.io/guide/getting-started (```ng add @angular/material``` para instalar).
+Angular Material https://material.angular.io/guide/getting-started (```ng add @angular/material``` para instalar).
 
-Para la API Rest "fake" se ha usado https://github.com/typicode/json-server (```npm install -g json-server``` para instalar).
+API Rest "fake" https://github.com/typicode/json-server (```npm install -g json-server``` para instalar).
 
-Para ejecutar la build se ha usado https://github.com/johnpapa/lite-server (```npm install --global lite-server``` para instalar).
+Para ejecutar la build https://github.com/johnpapa/lite-server (```npm install --global lite-server``` para instalar).
 
 ## Ejecución ##
 
