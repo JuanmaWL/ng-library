@@ -1,0 +1,70 @@
+{
+  "mediaList": [
+    {
+      "mediaName": "Breaking Bad",
+      "mediaType": "Serie",
+      "mediaDate": "2017-05-16T22:00:00.000Z",
+      "id": 2
+    },
+    {
+      "mediaName": "Bioshock Infinite",
+      "mediaType": "Videojuego",
+      "mediaDate": "2014-06-17T22:00:00.000Z",
+      "id": 4
+    },
+    {
+      "mediaName": "Dota 2",
+      "mediaType": "Videojuego",
+      "mediaDate": "2012-01-17T23:00:00.000Z",
+      "id": 5
+    },
+    {
+      "mediaName": "Harry Potter y la piedra filosofal",
+      "mediaType": "Ebook",
+      "mediaDate": "2001-08-28T22:00:00.000Z",
+      "id": 6
+    },
+    {
+      "mediaName": "Avatar 2",
+      "mediaType": "Película",
+      "mediaDate": "2022-12-28T23:00:00.000Z",
+      "id": 7
+    },
+    {
+      "mediaName": "Assassin's Creed Origins",
+      "mediaType": "Videojuego",
+      "mediaDate": "2017-10-03T22:00:00.000Z",
+      "id": 8
+    },
+    {
+      "mediaName": "Dark",
+      "mediaType": "Serie",
+      "mediaDate": "2022-04-30T22:00:00.000Z",
+      "id": 9
+    },
+    {
+      "mediaName": "God of War 3",
+      "mediaType": "Videojuego",
+      "mediaDate": "2013-09-07T22:00:00.000Z",
+      "id": 10
+    },
+    {
+      "mediaName": "Logan",
+      "mediaType": "Película",
+      "mediaDate": "2018-05-18T22:00:00.000Z",
+      "id": 12
+    },
+    {
+      "mediaName": "El nombre de la rosa",
+      "mediaType": "Ebook",
+      "mediaDate": "1982-07-01T22:00:00.000Z",
+      "id": 13
+    },
+    {
+      "mediaName": "Canción de hielo y fuego",
+      "mediaType": "Ebook",
+      "mediaDate": "1998-06-27T22:00:00.000Z",
+      "id": 14
+    }
+  ]
+}

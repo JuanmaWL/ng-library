@@ -1,0 +1,26 @@
+<h1 mat-dialog-form>Crear elemento</h1>
+<div mat-dialog-content>
+   <form [formGroup]="mediaForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input formControlName="mediaName" matInput placeholder="Nombre">
+    </mat-form-field>
+    <label for=""><h1>Tipo</h1></label>
+    <mat-radio-group formControlName="mediaType" class="radio-group">
+        <mat-radio-button color="primary" class="radio-button" *ngFor="let type of mediaTypeList" [value] = "type">
+            {{type}}
+        </mat-radio-button>
+    </mat-radio-group>
+    <mat-form-field appearance="outline">
+        <mat-label>Fecha</mat-label>
+        <input formControlName="mediaDate" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+   </form>
+</div>
+
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button mat-dialog-close class="close-button">Cerrar</button>
+    <button style="margin-left: 10px" mat-raised-button color="warn" (click)="addMedia()">{{actionBtn}}</button>
+</div>
