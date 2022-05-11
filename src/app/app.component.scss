@@ -1,0 +1,77 @@
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .mat-table{
+    margin-top: -15px;
+  }
+
+  .mat-toolbar{
+    color: #E50914;
+    background-color: #221F1F;
+  }
+
+  .mat-row:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+  }
+        
+  .mat-row:nth-child(even){
+    background-color:rgb(242, 242, 242);
+  }
+
+  .mat-header-cell {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .mat-paginator{ 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden !important;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+    background-color: #fff;  
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }  
+
+  .mat-form-field-wrapper{
+    padding-bottom: 19px;
+  }
+
+  .mat-focused .mat-form-field-label {
+    color: #673ab7 !important;
+  }
+
+  .icon-display {
+    transform: scale(1.2);
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .background {
+    background-image: url(https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blur {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100%;
+  }
+
+  
