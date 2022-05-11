@@ -12,7 +12,7 @@ Para ejecutar la build se ha usado https://github.com/johnpapa/lite-server (```n
 
 Proyecto.
 
-1. Ubicarse en el directorio 'ng-library'
+1. Ubicarse en el directorio 'ng-library'.
 2. Poner en marcha json-server ejecutando ```npm run api``` o ```json-server --watch ./src/assets/mediaDataBase.json```. Se habilita **http://localhost:3000**.
 3. En otro terminal: Paso 1 y jecutar ```ng serve``` y navegar a **http://localhost:4200**. La aplicación se recargará automáticamente si se realiza algún cambio.
 
