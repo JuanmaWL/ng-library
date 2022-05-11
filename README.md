@@ -12,11 +12,11 @@ Proyecto.
 
 1. Ubicarse en el directorio de la app **'cd ng-library'**
 2. Poner en marcha json-server ejecutando **'json-server --watch ./src/assets/mediaDataBase.json'**. Se habilita **http://localhost:3000**
-3. Ejecutar **'ng serve'** y navegar a **http://localhost:4200**. La aplicación se recargará automáticamente si se realiza algún cambio.
+3. En otro terminal: Paso 1 y jecutar **'ng serve'** y navegar a **http://localhost:4200**. La aplicación se recargará automáticamente si se realiza algún cambio.
 
 También se puede ejecutar directamente la build de la app ubicada en \dist\ng-library. 
 Para ello:
 
 1. Ubicarse en el directorio dist\ng-library.
 2. Ejecutar **'npm run api'** o **'json-server --watch ./src/assets/mediaDataBase.json'**
-3. Ejecutar** 'npm run dev'** o **'lite-server -c bs-config.json'** y navegar a **http://localhost:4200** para acceder a la app.
+3. En otro terminal: Paso 1 y ejecutar** 'npm run dev'** o **'lite-server -c bs-config.json'** y navegar a **http://localhost:4200** para acceder a la app.
